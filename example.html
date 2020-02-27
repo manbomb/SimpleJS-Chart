@@ -1,0 +1,18 @@
+<script type="text/javascript" src="simplechart.js"></script>
+<div id="div_chart"></div>
+<script type="text/javascript">
+	div = document.getElementById('div_chart');
+
+	data = [];
+
+	for (var i = 100; i >= 0; i--) {
+		data[i] = Math.sin(i/10)+1;
+	}
+
+	SimpleChart('Gráfico Teste',500,900,'#a84fb3',div,data);
+</script>
+<style type="text/css">
+	#div_chart {
+		margin-top: 10vh;
+	}
+</style>
