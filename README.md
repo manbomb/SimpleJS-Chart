@@ -28,5 +28,12 @@ Where 'div' is the object of your chart div, and 'data' is your array (linear) o
 
 ## It remains to be done:
 
-1. Draw negative values.
-2. Display a resume of the bar below the mouse pointer.
+1. ~~Draw negative values.~~
+2. ~~Display a resume of the bar below the mouse pointer.~~
+3. ~~Change the color of bar below the mouse pointer.~~
+
+## Last updates
+
+- Display negative values.
+- Display the value of bar below the mouse pointer in top of chart.
+- Change the color of bar below the mouse pointer (to the inverse of original color).
